@@ -1,0 +1,7 @@
+kind: ExternalService
+name: mega-electric-nginx
+spec:
+  image:  razear/mega-electric-nginx:${SHA}
+  port: 80
+  resources:
+    memory: 200Mi
